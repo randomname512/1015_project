@@ -1,4 +1,4 @@
-# Youtube dislikes
+# Youtube Dislikes
 ## About
 Dislikes are a good metric for judging the quality of a video before you watch it. With youtube removing dislikes, we want to attempt to predict youtube dislikes from other publically available data on the video. 
 1. [Linear_Regression](https://github.com/randomname512/1015_project/blob/main/Linear_Regression.ipynb)
@@ -10,16 +10,24 @@ Dislikes are a good metric for judging the quality of a video before you watch i
 
 ## Problem
 - Predicting dislike count on a youtube video based on other data.
-- What kind of techniques are required to do such a thing.
+- What kind of techniques are required to predict dislikes.
 
 ## Models
-- Linear regression
-- Deep learning
+- Linear Regression
+- Deep Learning
 
 ## Conclusion
+- View counts have a high linear correlation with dislikes, while comment counts have a low linear correlation with dislikes.
 - Basic linear regression is not very effective on complex and varied data with no clearly defined relationship.
 - Breaking the data down to individual channels and using that to estabish a baseline seems to help marginally.
-- Ultimately the problem can be solved to a certain extent with machine learning taking into accout the text data and learning the hidden relationships that we cannot find ourselfs.
+- Ultimately the problem can be solved to a certain extent with machine learning taking into account the text data and learning the hidden relationships that we cannot find ourselves.
+
+## What we learnt
+- Neural Networks, Keras, Tensorflow
+- How to make use of LSTMs(RNN)
+- Preprocessing techniques like tokenisation
+- Process both numerical and text data
+- Youtube API
 
 ## References
 - [Main Dataset](https://www.kaggle.com/datasets/dmitrynikolaev/youtube-dislikes-dataset?datasetId=1794708)
