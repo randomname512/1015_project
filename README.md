@@ -1,12 +1,16 @@
 # Youtube dislikes
 ## About
-Dislikes are a good metric for judging the quality of a video before you watch it. With youtube removing dislikes, we want to see if we can predict youtube dislikes from other publically available data on the video. 
+Dislikes are a good metric for judging the quality of a video before you watch it. With youtube removing dislikes, we want to attempt to predict youtube dislikes from other publically available data on the video. 
 1. [Linear_Regression](https://github.com/randomname512/1015_project/blob/main/Linear_Regression.ipynb)
 2. [Deep_Learning](https://github.com/randomname512/1015_project/blob/main/Deep_Learning.ipynb)
 
 ## Contributers
 - Shao Xian - code
 - Sam Neo - presentation
+
+## Problem
+- Predicting dislike count on a youtube video based on other data.
+- What kind of techniques are required to do such a thing.
 
 ## Models
 - Linear regression
