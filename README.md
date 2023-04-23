@@ -5,8 +5,8 @@ Dislikes are a good metric for judging the quality of a video before you watch i
 2. [Deep_Learning](https://github.com/randomname512/1015_project/blob/main/Deep_Learning.ipynb)
 
 ## Contributers
-- Shao Xian - code
-- Sam Neo - presentation
+- Shao Xian - a bit of everything
+- Sam Neo - a bit of everything
 
 ## Problem
 - Predicting dislike count on a youtube video based on other data.
